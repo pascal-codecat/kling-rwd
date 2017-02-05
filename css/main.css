@@ -5,6 +5,7 @@
    ========================================================================== */
    body{
      background-image: url("../img/309.png");
+     font-family: "Quicksand","Helvetica Neue",Helvetica,Arial,sans-serif;
    }
    .body-layer{
       background: hsla(180, 94%, 50%, 0.35);
@@ -44,7 +45,7 @@
 
   header{
     height: 8em;
-    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
     color: #fff;
     background:#303440;
     z-index: 2;
@@ -72,8 +73,11 @@
 
 /*NAVBAR-SIDE*/
   #navigation {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       padding: 2.4em 1.5em 0 1.5em;
       background:rgba(46, 49, 61, 0.83);
+      border: 3px solid #2e313d;
+      border-left: 0px;
       border-radius: 0px 8px 8px 0px;
       top: 50%;
       transform: translateY(-50%);
@@ -161,9 +165,10 @@
       transition: all 0.5s ease;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     #navigation{
       width: 14%;
+      height: 52em;
     }
   }
 
@@ -199,6 +204,7 @@
 rgba(32, 78, 54, 0.2),*/
 
   .head-image-text{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -207,7 +213,7 @@ rgba(32, 78, 54, 0.2),*/
 
   .head-image-text h1{
     font-size: 550%;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo',"Helvetica Neue",Helvetica,Arial,sans-serif;
   }
 
   .einleitung{
@@ -218,18 +224,50 @@ rgba(32, 78, 54, 0.2),*/
   .einleitung-text{
     border-bottom: 1px solid #aaa;
     border-top: 1px solid #aaa;
-    font-family: 'Quicksand', sans-serif;
     transform: translateY(-50%);
     padding: 1em 0 1em 0;
     position: relative;
     top: 50%;
-    font-size: 170%;
+    font-size: 160%;
     text-align: center;
     color: #ccc;
   }
 
+
+
+  .uber-mich-section-title{
+    padding-left: 1.5em;
+    margin-top: 10em;
+    background-color: #303440;
+    color: #ccc;
+
+  }
+
+  .uber-mich-section{
+    border: 1em solid #ddd;
+    border-top: 0px;
+    padding: 0em 3em 2em 3em;
+    margin-top: 0em;
+    min-height: 15em;
+    background: #eee;
+  }
+
+
+  .uber-mich-section-text{
+    font-weight: bold;
+    padding: 4em 1em 2em 0em;
+    list-style-position: outside;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+.uber-mich-section-text li > i{
+  color: #027272;
+}
+
+
   .content-background{
-    margin-top: 5em;
+    margin-top: 8em;
     background-color: #eee;
     height: 80em;
   }
@@ -237,6 +275,12 @@ rgba(32, 78, 54, 0.2),*/
   @media (max-width: 992px) {
     .einleitung-text{
       font-size: 130%;
+    }
+    .uber-mich-section-text{
+      font-size: 1em;
+    }
+    .uber-mich-section-text{
+      font-size: 1em;
     }
   }
 
@@ -254,9 +298,20 @@ rgba(32, 78, 54, 0.2),*/
       height: 15em;
     }
     .einleitung-text{
-      font-size: 80%;
+      font-size: 100%;
+    }
+    .uber-mich-section-title h2{
+      font-size: 1.5em;
+    }
+    .uber-mich-section-text{
+      padding: 4em 0em 0em 0em;
+      font-size: 0.8em;
+    }
+    .uber-mich-section{
+      padding: 0em 1em 2em 1em;
     }
   }
+
 
 /* ==========================================================================
   Author's custom styles
