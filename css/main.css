@@ -289,6 +289,10 @@ rgba(32, 78, 54, 0.2),*/
     display: inline;
   }
 
+  @media (min-width: 2000px){
+      .rwd-break-2 { display: none; }
+  }
+
   @media (min-width: 1300px){
       .rwd-break { display: none; }
   }
