@@ -246,7 +246,7 @@ rgba(32, 78, 54, 0.2),*/
   .uber-mich-section{
     border: 1em solid #ddd;
     border-top: 0px;
-    padding: 0em 3em 2em 3em;
+    padding: 0em;
     margin-top: 0em;
     min-height: 15em;
     background: #eee;
@@ -255,15 +255,15 @@ rgba(32, 78, 54, 0.2),*/
 
   .uber-mich-section-text{
     font-weight: bold;
-    padding: 4em 1em 2em 0em;
+    padding: 4em 3em 2em 2em;
     list-style-position: outside;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #333;
   }
 
-.uber-mich-section-text li > i{
-  color: #027272;
-}
+  .uber-mich-section-text li > i{
+    color: #027272;
+  }
 
 
   .content-background{
@@ -272,6 +272,48 @@ rgba(32, 78, 54, 0.2),*/
     height: 80em;
   }
 
+  .profil-1{
+    overflow: hidden;
+    background-color: #ddd;
+    padding: 0;
+  }
+
+  .profil-1 img{
+    padding: 0;
+    padding-top: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  @media (min-width: 2009px){
+    .profil-1 img{
+      padding: 0 30px 0 45px;
+    }
+  }
+  @media (min-width: 992px) {
+    .profil-1{
+      overflow: hidden;
+      position: absolute;
+      background-color: #ddd;
+      padding: 0;
+      height: 100%;
+      right: 0;
+    }
+
+    .profil-1 img{
+      position: absolute;
+      padding: 0;
+      padding-left:30px;
+      padding-right: 15px;
+      padding-top: 4em;
+      width: 100%;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
   @media (max-width: 992px) {
     .einleitung-text{
       font-size: 130%;
@@ -282,6 +324,9 @@ rgba(32, 78, 54, 0.2),*/
     .uber-mich-section-text{
       font-size: 1em;
     }
+
+
+
   }
 
   @media (max-width: 768px) {
