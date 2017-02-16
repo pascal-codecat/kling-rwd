@@ -7,9 +7,9 @@
      background-image: url("../img/309.png");
      font-family: "Quicksand","Helvetica Neue",Helvetica,Arial,sans-serif;
    }
-   .body-layer{
+   /*.body-layer{
       background: hsla(180, 94%, 50%, 0.35);
-   }
+   }*/
 
    /*NAVBAR BURGER-ICON*/
    .sidenav{
@@ -269,13 +269,6 @@ rgba(32, 78, 54, 0.2),*/
     color: #027272;
   }
 
-
-  .content-background{
-    margin-top: 8em;
-    background-color: #eee;
-    height: 80em;
-  }
-
   .profil-1{
     overflow: hidden;
     background-color: #ddd;
@@ -292,11 +285,11 @@ rgba(32, 78, 54, 0.2),*/
   .section-text-angebote{
     min-height: 30em;
     margin-left: 1em;
-    padding-top: 3em;
+    padding: 4em 3em 2em 2em;
   }
 
   .section-text-angebote h3{
-    margin: 1em;
+    margin: 0 1em 1em 1em;
     margin-left: -0.5em;
   }
 
@@ -314,9 +307,35 @@ rgba(32, 78, 54, 0.2),*/
     background-color: #eee;
   }
 
+  .section-text-kontakt{
+    min-height: 25em;
+  }
+
+  .section-text-kontakt h3{
+    padding-bottom: 1em;
+  }
+
+  #map {
+    margin-top: 4em;
+    height: 450px;
+    width: 80%;
+}
+
 
   .rwd-line{
     display: inline;
+  }
+
+  .footer{
+    z-index: -1;
+    margin-top: 8em;
+    background-color: #303440;
+    height: 5em;
+    width: 100%;
+  }
+
+  .profil-maps{
+    background-color: #303440;
   }
 
   @media (min-width: 2000px){
@@ -389,6 +408,13 @@ rgba(32, 78, 54, 0.2),*/
     }
     .uber-mich-section{
       padding: 0;
+    }
+    .nav-stacked-me > li {
+      float: none;
+    }
+    .nav-stacked-me > li + li {
+      margin-top: 2px;
+      margin-left: 0;
     }
   }
 
