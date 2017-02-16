@@ -316,9 +316,11 @@ rgba(32, 78, 54, 0.2),*/
   }
 
   #map {
-    margin-top: 4em;
-    height: 450px;
+    display: block;
+    /*position: absolute;*/
+    height: 100%;
     width: 80%;
+    margin: 1em auto;
 }
 
 
