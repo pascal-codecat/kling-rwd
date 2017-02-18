@@ -4,12 +4,10 @@
    Layout
    ========================================================================== */
    body{
-     background-image: url("../img/309.png");
+     background-color: #2a9b9b;
+     background-image: url("../img/309a.png");
      font-family: "Quicksand","Helvetica Neue",Helvetica,Arial,sans-serif;
    }
-   /*.body-layer{
-      background: hsla(180, 94%, 50%, 0.35);
-   }*/
 
    /*NAVBAR BURGER-ICON*/
    .sidenav{
@@ -167,8 +165,8 @@
 
   @media (min-width: 992px) {
     #navigation{
-      width: 14%;
-      height: 52em;
+      width: 13%;
+      height: 45em;
     }
   }
 
@@ -200,8 +198,7 @@
     width: 100%;
     height: 100%
   }
-/*rgba(110, 110, 255, 0.2),
-rgba(32, 78, 54, 0.2),*/
+
 
   .head-image-text{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -237,13 +234,15 @@ rgba(32, 78, 54, 0.2),*/
 
   .section-title{
     padding-left: 1.5em;
-    margin-top: 10em;
+    margin-top: 12em;
     background-color: #303440;
     color: #ccc;
   }
 
   .section-title-tab{
-    margin-top: 0;
+    padding-left: 1.5em;
+    background-color: #303440;
+    color: #ccc;
     padding-top: 0.5em;
   }
 
@@ -261,6 +260,7 @@ rgba(32, 78, 54, 0.2),*/
     font-weight: bold;
     padding: 4em 3em 2em 2em;
     list-style-position: outside;
+    min-height: 30em;
     font-size: 1.2em;
     color: #333;
   }
@@ -276,14 +276,6 @@ rgba(32, 78, 54, 0.2),*/
   }
 
   .profil-1 img{
-    padding: 1em 0 1em 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .section-text-angebote{
-    min-height: 30em;
     margin-left: 1em;
     padding: 4em 3em 2em 2em;
   }
@@ -307,20 +299,21 @@ rgba(32, 78, 54, 0.2),*/
     background-color: #eee;
   }
 
-  .section-text-kontakt{
-    min-height: 25em;
-  }
 
   .section-text-kontakt h3{
     padding-bottom: 1em;
   }
 
+  .section-text-kontakt li{
+    margin-left: 1em;
+  }
+
+
   #map {
     display: block;
-    /*position: absolute;*/
-    height: 100%;
+    height: 80%;
     width: 80%;
-    margin: 1em auto;
+    margin: 4em auto;
 }
 
 
@@ -330,15 +323,12 @@ rgba(32, 78, 54, 0.2),*/
 
   .footer{
     z-index: -1;
-    margin-top: 8em;
+    margin-top: 10em;
     background-color: #303440;
     height: 5em;
     width: 100%;
   }
 
-  .profil-maps{
-    background-color: #303440;
-  }
 
   @media (min-width: 2000px){
       .rwd-break-2 { display: none; }
@@ -382,6 +372,9 @@ rgba(32, 78, 54, 0.2),*/
     }
     .uber-mich-section-text{
       font-size: 1em;
+    }
+    .section-title{
+      margin-top: 2em;
     }
   }
 

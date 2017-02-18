@@ -40,4 +40,18 @@ function initMap() {
     map: map,
     title: 'Hello World!'
   });
+
+
+  // smooth scrolling
+  var $root = $('html, body');
+    $('.navi a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, 500, function () {
+            window.location.hash = href;
+        });
+        return false;
+  });
+
 }

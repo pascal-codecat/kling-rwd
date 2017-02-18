@@ -32,12 +32,13 @@
 
   <div id="mySidenav" class="sidenav visible-xs">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="#willkommen">About</a>
+      <a href="#uber-mich">Services</a>
+      <a href="#vita">Clients</a>
+      <a href="#angebote">Contact</a>
+      <a href="#kontakt">Contact</a>
   </div>
-
+  <div id="willkommen" class="col-xs-12"></div>
   <header class="container-fluid col-sm-12">
       <div class="row">
           <div class="col-sm-12 text-center">
@@ -66,12 +67,11 @@
               <div class="col-md-2 col-sm-1 col-lg-2 hidden-xs display-table-cell v-align box" id="navigation">
                   <div class="navi">
                       <ul>
-                          <li class=""><a href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Willkommen</span></a></li>
-                          <li><a href="#"><i class="fa fa-vcard" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Über mich</span></a></li>
-                          <li><a href="#"><i class="fa fa-list" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Vita</span></a></li>
-                          <li><a href="#"><i class="fa fa-suitcase" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Angebote</span></a></li>
-                          <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Kontakt</span></a></li>
-                          <li><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Start</span></a></li>
+                          <li><a href="#willkommen"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Willkommen</span></a></li>
+                          <li><a href="#uber-mich"><i class="fa fa-vcard" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Über mich</span></a></li>
+                          <li><a href="#vita"><i class="fa fa-list" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Vita</span></a></li>
+                          <li><a href="#angebote"><i class="fa fa-suitcase" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Angebote</span></a></li>
+                          <li><a href="#kontakt"><i class="fa fa-envelope" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Kontakt</span></a></li>
                       </ul>
                   </div>
               </div>
@@ -97,6 +97,7 @@
               </div>
 
 
+              <div id="uber-mich" class="col-xs-12"></div>
               <div class="section-title col-xs-12 col-sm-offset-2 col-sm-8 v-align">
                 <h2>Über mich</h2>
               </div>
@@ -147,7 +148,7 @@
 
 
 
-
+      <div id="vita" class="col-xs-12"></div>
       <div class="section-title col-xs-12 col-sm-offset-2 col-sm-8 v-align">
         <h2>Vita</h2>
       </div>
@@ -219,11 +220,11 @@
         </div>
       </div>
 
-
+      <div id="angebote" class="col-xs-12"></div>
       <div class="section-title col-xs-12 col-sm-offset-2 col-sm-8 v-align">
         <h2>Angebote</h2>
       </div>
-      <div class="section-title section-title-tab col-xs-12 col-sm-offset-2 col-sm-8 v-align">
+      <div class="section-title-tab col-xs-12 col-sm-offset-2 col-sm-8 v-align">
         <ul class="nav nav-tabs nav-stacked-me">
           <li><a data-toggle="tab" href="#menu1">Führungskräfteentwicklung</a></li>
           <li><a data-toggle="tab" href="#menu2">Coaching</a></li>
@@ -382,11 +383,11 @@
       </div>
 
 
-
+      <div id="kontakt" class="col-xs-12"></div>
       <div class="section-title col-xs-12 col-sm-offset-2 col-sm-8 v-align">
         <h2>Kontakt</h2>
       </div>
-      <div class="section col-xs-12 col-sm-offset-2 col-sm-8 v-align">
+      <div class="section section-kontakt col-xs-12 col-sm-offset-2 col-sm-8 v-align">
         <div class="section-text section-text-kontakt col-xs-12 col-md-8 col-lg-7 ">
           <h3>Ich freue mich auf einenen Anruf oder eine E-Mail.</h3>
           <ul class="fa-ul">
@@ -403,18 +404,16 @@
             </li>
             <br>
             <li><i class="fa-li fa fa-envelope"></i>
-              E-Mail: david.w.kling@googlemail.com
+              E-Mail:<a href="mailto:david.w.kling@googlemail.com">
+              david.w.kling@googlemail.com</a>
             </li>
           </ul>
         </div>
 
 
-        <div class="profil-1 profil-maps col-xs-12 col-md-4 col-lg-5">
+        <div class="profil-1 profil-maps col-xs-0 col-md-4 col-lg-5">
           <div id="map"></div>
         </div>
-      </div>
-
-      <div class="footer col-xs-12 v-align">
       </div>
 
 
@@ -423,7 +422,8 @@
     </div>
   </div>
 </div>
-
+<div class="footer col-xs-12">
+</div>
 
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
