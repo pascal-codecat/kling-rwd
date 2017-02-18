@@ -365,9 +365,6 @@
       width: 100%;
       display: flex;
     }
-    .section-title{
-      margin-top: 5em;
-    }
   }
   @media (max-width: 992px) {
     .einleitung-text{
