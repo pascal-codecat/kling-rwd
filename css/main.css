@@ -415,6 +415,13 @@
       margin-top: 2px;
       margin-left: 0;
     }
+    .einleitung-text{
+      font-size: 100%;
+    }
+
+    .section p,li,h3,i{
+      font-size: 0.7em;
+    }
   }
 
 
