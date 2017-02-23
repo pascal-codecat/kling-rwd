@@ -387,6 +387,10 @@
     }
   }
 
+  @media (min-width: 400px) {
+    .rwd-break-3 { display: none; }
+  }
+
   @media (max-width: 768px) {
     .head-image-text h1{
       font-size: 300%;
