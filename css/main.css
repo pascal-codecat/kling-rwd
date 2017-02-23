@@ -346,6 +346,9 @@
     .profil-1 img{
       padding: 0 30px 0 45px;
     }
+    .footer{
+      margin-top: 30em;
+    }
   }
   @media (min-width: 992px) {
     .profil-1{
