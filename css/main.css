@@ -10,10 +10,6 @@
      font-family: "Quicksand","Helvetica Neue",Helvetica,Arial,sans-serif;
    }
 
-   p,li,h3{
-     font-size: 0.1em;
-     color: yellow;
-   }
 
    /*NAVBAR BURGER-ICON*/
    .sidenav{
