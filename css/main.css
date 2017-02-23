@@ -419,8 +419,11 @@
       font-size: 100%;
     }
 
-    .section p,li,h3,i{
-      font-size: 0.7em;
+    .section p,li,i{
+      font-size: 0.8em;
+    }
+    .section h3{
+      font-size: 1em;
     }
   }
 
