@@ -368,6 +368,11 @@
     }
   }
   @media (max-width: 992px) {
+    .section-text{
+      padding: 3em 2em 1em 1em;
+      min-height: 20em;
+    }
+
     .einleitung-text{
       font-size: 130%;
     }
@@ -378,7 +383,7 @@
       font-size: 1em;
     }
     .section-title{
-      margin-top: 2em;
+      margin-top: 4em;
     }
   }
 
