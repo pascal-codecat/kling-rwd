@@ -469,6 +469,28 @@
     .section h3{
       font-size: 1em;
     }
+    .section{
+      transform: translateY(0);
+    }
+    .section-title{
+      transform: translateY(0);
+    }
+    .section-title-tab{
+      transform: translateY(0);
+    }
+
+    #uber-mich{
+      height: 1em;
+    }
+    #vita{
+      height: 1em;
+    }
+    #angebote{
+      height: 1em;
+    }
+    #kontakt{
+      height: 1em;
+    }
   }
 
 
