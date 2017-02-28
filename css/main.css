@@ -238,7 +238,7 @@
     /*margin-top: 12em;*/
     background-color: #303440;
     color: #ccc;
-    transform: translateY(-23em);
+    transform: translateY(-22.5em);
   }
 
   .section-title-tab{
@@ -246,7 +246,7 @@
     background-color: #303440;
     color: #ccc;
     padding-top: 0.5em;
-    transform: translateY(-23em);
+    transform: translateY(-22.5em);
   }
 
   .section{
@@ -256,7 +256,7 @@
     margin-top: 0em;
     min-height: 15em;
     background: #eee;
-    transform: translateY(-23em);
+    transform: translateY(-22.5em);
   }
 
 
