@@ -343,17 +343,40 @@
     margin: 4em auto;
 }
 
+#datenschutz{
+  margin-top: 10em;
+  /*background-color: yellow;*/
+  height: 50vh;
+}
+
 
   .rwd-line{
     display: inline;
   }
 
   .footer{
-    z-index: -1;
+    /* z-index: -1; */
     margin-top: 10em;
+    padding-top: 1em;
     background-color: #303440;
     height: 5em;
     width: 100%;
+  }
+
+  .footer>ul{
+    text-align: center;
+  }
+
+  .footer>ul>li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .footer>ul>li>a{
+    color: #FFF;
+    text-decoration: none;
   }
 
 

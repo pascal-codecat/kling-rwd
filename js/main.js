@@ -21,7 +21,7 @@ $(document).ready(function(){
 var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 47.6586018, lng: 9.4317064},
+    center: {lat: 47.6445009, lng: 9.5045683},
     zoom: 15
   });
 }
@@ -29,7 +29,7 @@ function initMap() {
 // marker
 
 function initMap() {
-  var myLatLng = {lat: 47.651483, lng: 9.494621};
+  var myLatLng = {lat: 47.6444973, lng: 9.506757};
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 15,
